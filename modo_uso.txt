@@ -1,0 +1,18 @@
+
+
+(keras_tf35_gpu) D:\Luis\codigos\deep learning\keras-retinanet-master\keras_retinanet\bin>python train.py --no-snapshots pascal "D:\Luis\codigos\deep learning\basketball"
+
+
+(keras_tf35_gpu) D:\Luis\codigos\deep learning\keras-retinanet-master\keras_retinanet\bin>python train.py --epochs 10 --snapshot-path "D:\Luis\codigos\snapshot"  pascal "D:\Luis\codigos\deep learning\basketball"
+
+
+(keras_tf35_gpu) D:\Luis\codigos\deep learning\keras-retinanet-master\keras_retinanet\bin>python train.py --epochs 10 --steps 10 --snapshot-path "D:\Luis\codigos\snapshot"  pascal "D:\Luis\codigos\deep learning\basketball"
+
+
+
+
+---------------------
+Test images
+---------------------------------------
+
+(keras_tf35_gpu) D:\Luis\codigos\deep learning\keras-retinanet-master>python Test_images.py --image "D:\Luis\codigos\deep learning\keras-retinanet-master\30.jpg"
